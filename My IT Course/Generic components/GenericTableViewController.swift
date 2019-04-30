@@ -2,7 +2,7 @@
 //  GenericTableViewController.swift
 //  My IT Course
 //
-//  Created by Pat Dynek on 29/04/2019.
+//  Created by Harry Roberts on 29/04/2019.
 //  Copyright © 2019 BP0153386. All rights reserved.
 //
 

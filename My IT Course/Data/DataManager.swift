@@ -15,6 +15,8 @@ public enum CodingError: Error {
 public class DataManager {
     
     public let kProgrammes = "Programmes"
+    public let kExamsTaken = "ExamsTaken"
+    public let kFutureExams = "FutureExams"
     
     private var defaults: UserDefaults!
     public static let shared = DataManager()
