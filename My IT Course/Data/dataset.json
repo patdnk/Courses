@@ -1,0 +1,216 @@
+[{
+    "name": "iOS Programming",
+    "status": "None",
+    "available": false,
+    "modules": [{
+        "name": "Introducing SWIFT",
+        "description": "Information about SWIFT and overview of Xcode and how to use the ‘Playground’",
+        "status": "Not started",
+        "units": [{
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "name": "Data Types",
+        "description": "Primitives, integers, floats and literal",
+        "status": "Not started",
+        "units": [{
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "name": "Data Types",
+        "description": "Primitives, integers, floats and literal",
+        "status": "Not started",
+        "units": [{
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "name": "Basic Syntax",
+        "description": "Logical operations and enumerations",
+        "status": "Not started",
+        "units": [{
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "name": "Functions and closures",
+        "description": "Passing parameters and parameter naming",
+        "status": "Not started",
+        "units": [{
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "name": "Classes and structures",
+        "description": "Defining classes, difference between value and reference types",
+        "status": "Not started",
+        "units": [{
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "name": "Defining instance and type methods, subscripts",
+        "description": "Defining instance and type methods, subscripts",
+        "status": "Not started",
+        "units": [{
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    }
+    ]
+}]
