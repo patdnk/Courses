@@ -1,5 +1,5 @@
 //
-//  ModulesAvailableViewController.swift
+//  ModulesViewController.swift
 //  My IT Course
 //
 //  Created by Pat Dynek on 29/04/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ModulesAvailableViewController: GenericTableViewController {
+class ModulesViewController: GenericTableViewController {
     
     var programme: ProgrammeItem!
 

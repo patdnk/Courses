@@ -1,25 +1,24 @@
 //
-//  AccessoryCell.swift
+//  DetailsCell.swift
 //  My IT Course
 //
-//  Created by Pat Dynek on 21/04/2019.
+//  Created by Pat Dynek on 30/04/2019.
 //  Copyright © 2019 BP0153386. All rights reserved.
 //
-//
+
 import UIKit
 
-protocol AccessoryCellDelegate: class {
-    func didTapActionButton(selected: Bool, sender: UIButton)
+protocol DetailsCellDelegate: class {
+    func didTapActionButton(sender: UIButton)
 }
 
-class AccessoryCell: UITableViewCell {
+class DetailsCell: UITableViewCell {
     
     var actionButton = UIButton(type: .custom)
-    weak var delegate: AccessoryCellDelegate?
-    private var isTicked: Bool = false
-    
+    weak var delegate: DetailsCellDelegate?
+
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        super.init(style: .value1, reuseIdentifier: reuseIdentifier)
         self.setupActionButton()
     }
     
@@ -32,12 +31,15 @@ class AccessoryCell: UITableViewCell {
         super.awakeFromNib()
         self.setupActionButton()
     }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+    }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.actionButton.frame = CGRect(origin: CGPoint(x: self.frame.width - 38, y: (self.contentView.frame.height - 30) / 2), size: CGSize(width: 125, height: 30))
+        self.actionButton.frame = CGRect(origin: CGPoint(x: self.frame.width - 38, y: (self.contentView.frame.height - 30) / 2), size: CGSize(width: 75, height: 30))
     }
-
     
     private func setupActionButton() {
         self.actionButton.backgroundColor = .clear
@@ -46,9 +48,7 @@ class AccessoryCell: UITableViewCell {
     }
     
     @IBAction func didTapActionButton() {
-        self.accessoryType =  self.isTicked ? .none : .checkmark
-        self.isTicked = !self.isTicked
-        self.delegate?.didTapActionButton(selected: self.isTicked, sender: self.actionButton)
+        self.delegate?.didTapActionButton(sender: self.actionButton)
     }
     
 }

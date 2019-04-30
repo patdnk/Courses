@@ -18,41 +18,44 @@ public class DataManager {
     
     private var defaults: UserDefaults!
     public static let shared = DataManager()
-    public var programmes: [ProgrammeItem] {
-        get {
-            var programmesArray = [ProgrammeItem]()
-            if let programmesData = self.read(key: kProgrammes) as? [Data] {
-                for programmeData in programmesData {
-                    if let programmeDecoded = try! PropertyListDecoder().decode(Array<ProgrammeItem>?.self, from: programmeData) {
-                        programmesArray.append(contentsOf: programmeDecoded)
-                    }
-                }
-                return programmesArray
-                
-            } else {
-                
-                if let url = Bundle.main.url(forResource: "dataset", withExtension: "json") {
-                    do {
-                        let data = try Data(contentsOf: url)
-                        let jsonData = try JSONDecoder().decode([ProgrammeItem].self, from: data)
-                        print ("jsonData: \n \(jsonData)")
-                        programmesArray = jsonData
-                        let programmeItems = [try! PropertyListEncoder().encode(programmesArray)]
-                        self.write(key: kProgrammes, value: programmeItems)
-                        print("## Data read from JSON and stored in UserDefaults ##")
-                        return programmesArray
-                    } catch {
-                        print("error:\(error)")
-                    }
-                    
-                }
-            }
-            return []
-        }
-    }
+    public var programmes = [ProgrammeItem]()
     
     fileprivate init() {
         self.defaults = UserDefaults.standard
+        self.programmes = self.getInitialData()
+    }
+    
+    private func getInitialData() -> [ProgrammeItem] {
+        
+        var programmesArray = [ProgrammeItem]()
+        if let programmesData = self.read(key: kProgrammes) as? [Data] {
+            for programmeData in programmesData {
+                if let programmeDecoded = try! PropertyListDecoder().decode(Array<ProgrammeItem>?.self, from: programmeData) {
+                    programmesArray.append(contentsOf: programmeDecoded)
+                }
+            }
+            return programmesArray
+            
+        } else {
+            
+            if let url = Bundle.main.url(forResource: "dataset", withExtension: "json") {
+                do {
+                    let data = try Data(contentsOf: url)
+                    let jsonData = try JSONDecoder().decode([ProgrammeItem].self, from: data)
+                    print ("jsonData: \n \(jsonData)")
+                    programmesArray = jsonData
+                    let programmeItems = [try! PropertyListEncoder().encode(programmesArray)]
+                    self.write(key: kProgrammes, value: programmeItems)
+                    print("## Data read from JSON and stored in UserDefaults ##")
+                    return programmesArray
+                } catch {
+                    print("error:\(error)")
+                }
+                
+            }
+        }
+        return []
+        
     }
     
     public func loadInitialDataSet() {
@@ -70,7 +73,7 @@ public class DataManager {
         self.synchronize()
     }
     
-    public func saveData(_ programmes: [ProgrammeItem]) {
+    public func saveData(_ programmes: [ProgrammeItem]? = DataManager.shared.programmes) {
         let programmeItems = [try! PropertyListEncoder().encode(programmes)]
         self.write(key: kProgrammes, value: programmeItems)
         print("## Data saved ##")

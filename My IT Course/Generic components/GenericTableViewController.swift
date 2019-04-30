@@ -11,9 +11,7 @@ import UIKit
 class GenericTableViewController: UIViewController, UITableViewDelegate {
     
     static let accessoryCell = "AccessoryCell"
-    static let basicCell = "BasicCell"
-    static let detailCell = "DetailCell"
-    static let subtitleCell = "SubtitleCell"
+    static let detailsCell = "DetailsCell"
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -22,6 +20,7 @@ class GenericTableViewController: UIViewController, UITableViewDelegate {
     
     public func setupTable() {
         self.tableView.register(AccessoryCell.self, forCellReuseIdentifier: "AccessoryCell")
+        self.tableView.register(DetailsCell.self, forCellReuseIdentifier: "DetailsCell")
         self.tableView.dataSource = self.dataSource as? UITableViewDataSource
         self.tableView.delegate = self
         self.tableView.sectionFooterHeight = 0

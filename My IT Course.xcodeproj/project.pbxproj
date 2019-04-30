@@ -12,16 +12,24 @@
 		0818F2D3226BF2A300627310 /* ReusableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818F2D2226BF2A300627310 /* ReusableTableViewController.swift */; };
 		0818F2D5226C061000627310 /* AccessoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818F2D4226C061000627310 /* AccessoryButton.swift */; };
 		0818F2D7226C091800627310 /* AccessoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818F2D6226C091800627310 /* AccessoryCell.swift */; };
-		0864F26A227793A8002B79B0 /* ProgrammesAvailableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F269227793A8002B79B0 /* ProgrammesAvailableViewController.swift */; };
+		0864F26A227793A8002B79B0 /* ProgrammesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F269227793A8002B79B0 /* ProgrammesViewController.swift */; };
 		0864F26B22779A81002B79B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AE70A224CBBB60026A630 /* HomeViewController.swift */; };
 		0864F26F22779B4F002B79B0 /* ReusableTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F26E22779B4F002B79B0 /* ReusableTableViewController.xib */; };
 		0864F27322779E96002B79B0 /* AccessoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F27122779E96002B79B0 /* AccessoryCell.xib */; };
 		0864F2762277A21B002B79B0 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F2742277A21B002B79B0 /* GenericTableViewController.swift */; };
-		0864F2772277A21B002B79B0 /* ProgrammesAvailableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F2752277A21B002B79B0 /* ProgrammesAvailableViewController.xib */; };
-		0864F27B2277A4B9002B79B0 /* ModulesAvailableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F2792277A4B9002B79B0 /* ModulesAvailableViewController.swift */; };
-		0864F27C2277A4B9002B79B0 /* ModulesAvailableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F27A2277A4B9002B79B0 /* ModulesAvailableViewController.xib */; };
+		0864F2772277A21B002B79B0 /* ProgrammesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F2752277A21B002B79B0 /* ProgrammesViewController.xib */; };
+		0864F27B2277A4B9002B79B0 /* ModulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F2792277A4B9002B79B0 /* ModulesViewController.swift */; };
+		0864F27C2277A4B9002B79B0 /* ModulesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F27A2277A4B9002B79B0 /* ModulesViewController.xib */; };
 		0864F27F2277A7B2002B79B0 /* ModuleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F27D2277A7B2002B79B0 /* ModuleDetailsViewController.swift */; };
 		0864F2802277A7B2002B79B0 /* ModuleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F27E2277A7B2002B79B0 /* ModuleDetailsViewController.xib */; };
+		0864F2DA22788472002B79B0 /* ProgrammesStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F2D822788472002B79B0 /* ProgrammesStatusViewController.swift */; };
+		0864F2DB22788472002B79B0 /* ProgrammesStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F2D922788472002B79B0 /* ProgrammesStatusViewController.xib */; };
+		0864F2DE2278A1B7002B79B0 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F2DC2278A1B7002B79B0 /* DetailsCell.swift */; };
+		0864F2DF2278A1B7002B79B0 /* DetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F2DD2278A1B7002B79B0 /* DetailsCell.xib */; };
+		0864F2E22278A6F2002B79B0 /* ModulesStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F2E02278A6F2002B79B0 /* ModulesStatusViewController.swift */; };
+		0864F2E32278A6F2002B79B0 /* ModulesStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F2E12278A6F2002B79B0 /* ModulesStatusViewController.xib */; };
+		0864F2E62278A702002B79B0 /* UnitsStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F2E42278A702002B79B0 /* UnitsStatusViewController.swift */; };
+		0864F2E72278A702002B79B0 /* UnitsStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0864F2E52278A702002B79B0 /* UnitsStatusViewController.xib */; };
 		0878209D225E8234005F743B /* dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 0878209C225E8234005F743B /* dataset.json */; };
 		4A6AE709224CBBB60026A630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AE708224CBBB60026A630 /* AppDelegate.swift */; };
 		4A6AE710224CBBB80026A630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6AE70F224CBBB80026A630 /* Assets.xcassets */; };
@@ -39,15 +47,23 @@
 		0818F2D2226BF2A300627310 /* ReusableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewController.swift; sourceTree = "<group>"; };
 		0818F2D4226C061000627310 /* AccessoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryButton.swift; sourceTree = "<group>"; };
 		0818F2D6226C091800627310 /* AccessoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryCell.swift; sourceTree = "<group>"; };
-		0864F269227793A8002B79B0 /* ProgrammesAvailableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammesAvailableViewController.swift; sourceTree = "<group>"; };
+		0864F269227793A8002B79B0 /* ProgrammesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammesViewController.swift; sourceTree = "<group>"; };
 		0864F26E22779B4F002B79B0 /* ReusableTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableTableViewController.xib; sourceTree = "<group>"; };
 		0864F27122779E96002B79B0 /* AccessoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessoryCell.xib; sourceTree = "<group>"; };
 		0864F2742277A21B002B79B0 /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
-		0864F2752277A21B002B79B0 /* ProgrammesAvailableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgrammesAvailableViewController.xib; sourceTree = "<group>"; };
-		0864F2792277A4B9002B79B0 /* ModulesAvailableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesAvailableViewController.swift; sourceTree = "<group>"; };
-		0864F27A2277A4B9002B79B0 /* ModulesAvailableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModulesAvailableViewController.xib; sourceTree = "<group>"; };
+		0864F2752277A21B002B79B0 /* ProgrammesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgrammesViewController.xib; sourceTree = "<group>"; };
+		0864F2792277A4B9002B79B0 /* ModulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesViewController.swift; sourceTree = "<group>"; };
+		0864F27A2277A4B9002B79B0 /* ModulesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModulesViewController.xib; sourceTree = "<group>"; };
 		0864F27D2277A7B2002B79B0 /* ModuleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDetailsViewController.swift; sourceTree = "<group>"; };
 		0864F27E2277A7B2002B79B0 /* ModuleDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleDetailsViewController.xib; sourceTree = "<group>"; };
+		0864F2D822788472002B79B0 /* ProgrammesStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammesStatusViewController.swift; sourceTree = "<group>"; };
+		0864F2D922788472002B79B0 /* ProgrammesStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgrammesStatusViewController.xib; sourceTree = "<group>"; };
+		0864F2DC2278A1B7002B79B0 /* DetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
+		0864F2DD2278A1B7002B79B0 /* DetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsCell.xib; sourceTree = "<group>"; };
+		0864F2E02278A6F2002B79B0 /* ModulesStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesStatusViewController.swift; sourceTree = "<group>"; };
+		0864F2E12278A6F2002B79B0 /* ModulesStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModulesStatusViewController.xib; sourceTree = "<group>"; };
+		0864F2E42278A702002B79B0 /* UnitsStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsStatusViewController.swift; sourceTree = "<group>"; };
+		0864F2E52278A702002B79B0 /* UnitsStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnitsStatusViewController.xib; sourceTree = "<group>"; };
 		0878209C225E8234005F743B /* dataset.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dataset.json; sourceTree = "<group>"; };
 		4A6AE705224CBBB60026A630 /* My IT Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My IT Course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6AE708224CBBB60026A630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +94,8 @@
 			children = (
 				0818F2D6226C091800627310 /* AccessoryCell.swift */,
 				0864F27122779E96002B79B0 /* AccessoryCell.xib */,
+				0864F2DC2278A1B7002B79B0 /* DetailsCell.swift */,
+				0864F2DD2278A1B7002B79B0 /* DetailsCell.xib */,
 			);
 			path = "Table cells";
 			sourceTree = "<group>";
@@ -95,12 +113,18 @@
 			isa = PBXGroup;
 			children = (
 				4A6AE70A224CBBB60026A630 /* HomeViewController.swift */,
-				0864F269227793A8002B79B0 /* ProgrammesAvailableViewController.swift */,
-				0864F2752277A21B002B79B0 /* ProgrammesAvailableViewController.xib */,
-				0864F2792277A4B9002B79B0 /* ModulesAvailableViewController.swift */,
-				0864F27A2277A4B9002B79B0 /* ModulesAvailableViewController.xib */,
+				0864F269227793A8002B79B0 /* ProgrammesViewController.swift */,
+				0864F2752277A21B002B79B0 /* ProgrammesViewController.xib */,
+				0864F2792277A4B9002B79B0 /* ModulesViewController.swift */,
+				0864F27A2277A4B9002B79B0 /* ModulesViewController.xib */,
 				0864F27D2277A7B2002B79B0 /* ModuleDetailsViewController.swift */,
 				0864F27E2277A7B2002B79B0 /* ModuleDetailsViewController.xib */,
+				0864F2D822788472002B79B0 /* ProgrammesStatusViewController.swift */,
+				0864F2D922788472002B79B0 /* ProgrammesStatusViewController.xib */,
+				0864F2E02278A6F2002B79B0 /* ModulesStatusViewController.swift */,
+				0864F2E12278A6F2002B79B0 /* ModulesStatusViewController.xib */,
+				0864F2E42278A702002B79B0 /* UnitsStatusViewController.swift */,
+				0864F2E52278A702002B79B0 /* UnitsStatusViewController.xib */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -124,10 +148,10 @@
 		4A6AE707224CBBB60026A630 /* My IT Course */ = {
 			isa = PBXGroup;
 			children = (
+				4ADCA78B225B726900CE5150 /* Data */,
 				0864F26822779377002B79B0 /* Generic components */,
 				0818F2CD226BD81600627310 /* Table cells */,
 				0864F2782277A49D002B79B0 /* Scenes */,
-				4ADCA78B225B726900CE5150 /* Data */,
 				4A6AE708224CBBB60026A630 /* AppDelegate.swift */,
 				0818F2D2226BF2A300627310 /* ReusableTableViewController.swift */,
 				0864F26E22779B4F002B79B0 /* ReusableTableViewController.xib */,
@@ -215,10 +239,14 @@
 				0864F27322779E96002B79B0 /* AccessoryCell.xib in Resources */,
 				4A6AE713224CBBB80026A630 /* LaunchScreen.storyboard in Resources */,
 				0864F2802277A7B2002B79B0 /* ModuleDetailsViewController.xib in Resources */,
+				0864F2E72278A702002B79B0 /* UnitsStatusViewController.xib in Resources */,
 				4A6AE710224CBBB80026A630 /* Assets.xcassets in Resources */,
-				0864F27C2277A4B9002B79B0 /* ModulesAvailableViewController.xib in Resources */,
+				0864F2DB22788472002B79B0 /* ProgrammesStatusViewController.xib in Resources */,
+				0864F2E32278A6F2002B79B0 /* ModulesStatusViewController.xib in Resources */,
+				0864F27C2277A4B9002B79B0 /* ModulesViewController.xib in Resources */,
 				0878209D225E8234005F743B /* dataset.json in Resources */,
-				0864F2772277A21B002B79B0 /* ProgrammesAvailableViewController.xib in Resources */,
+				0864F2DF2278A1B7002B79B0 /* DetailsCell.xib in Resources */,
+				0864F2772277A21B002B79B0 /* ProgrammesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,19 +257,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0864F2DE2278A1B7002B79B0 /* DetailsCell.swift in Sources */,
 				7E96AB86225F92FE007FB4DE /* ConfigurableTableViewController.swift in Sources */,
 				0818F2D5226C061000627310 /* AccessoryButton.swift in Sources */,
 				0864F2762277A21B002B79B0 /* GenericTableViewController.swift in Sources */,
 				0818F2CF226BD97600627310 /* FlowController.swift in Sources */,
 				4A6AE709224CBBB60026A630 /* AppDelegate.swift in Sources */,
+				0864F2E22278A6F2002B79B0 /* ModulesStatusViewController.swift in Sources */,
 				0864F27F2277A7B2002B79B0 /* ModuleDetailsViewController.swift in Sources */,
 				0818F2D3226BF2A300627310 /* ReusableTableViewController.swift in Sources */,
-				0864F26A227793A8002B79B0 /* ProgrammesAvailableViewController.swift in Sources */,
+				0864F26A227793A8002B79B0 /* ProgrammesViewController.swift in Sources */,
 				4ADCA795225B846300CE5150 /* DataManager.swift in Sources */,
 				0818F2D1226BE46100627310 /* GenericDataSource.swift in Sources */,
 				4ADCA78F225B739600CE5150 /* ModuleItem.swift in Sources */,
 				4ADCA791225B742E00CE5150 /* UnitItem.swift in Sources */,
-				0864F27B2277A4B9002B79B0 /* ModulesAvailableViewController.swift in Sources */,
+				0864F27B2277A4B9002B79B0 /* ModulesViewController.swift in Sources */,
+				0864F2DA22788472002B79B0 /* ProgrammesStatusViewController.swift in Sources */,
+				0864F2E62278A702002B79B0 /* UnitsStatusViewController.swift in Sources */,
 				0818F2D7226C091800627310 /* AccessoryCell.swift in Sources */,
 				0864F26B22779A81002B79B0 /* HomeViewController.swift in Sources */,
 				4ADCA78D225B728F00CE5150 /* ProgrammeItem.swift in Sources */,
@@ -383,7 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5EGAA5YX86;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "My IT Course/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,7 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5EGAA5YX86;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "My IT Course/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
