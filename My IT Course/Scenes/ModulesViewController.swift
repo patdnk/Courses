@@ -21,7 +21,7 @@ class ModulesViewController: GenericTableViewController {
     
     private func setupDataSource() {
         self.dataSource = GenericDataSource(items: programme.modules,
-                                            reuseIdentifier: ReusableTableViewController.accessoryCell) { (module, @objc  cell) in
+                                            reuseIdentifier: GenericTableViewController.accessoryCell) { (module, @objc  cell) in
                                                 cell.textLabel?.text = module.name
         }
     }

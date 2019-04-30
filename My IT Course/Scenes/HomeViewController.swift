@@ -24,15 +24,21 @@ class HomeViewController: UITabBarController {
         let programmesTabViewController = UINavigationController(rootViewController: programmesViewController)
         programmesTabViewController.navigationBar.isOpaque = true
         programmesTabViewController.navigationBar.isHidden = false
-        programmesTabViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
+        programmesTabViewController.tabBarItem = UITabBarItem(title: "Programmes", image: UIImage.init(named: "ic_programmes"), tag: 0)
         
         let selectedViewController = ProgrammesStatusViewController()
         let selectedProgrammesTabViewController = UINavigationController(rootViewController: selectedViewController)
         selectedProgrammesTabViewController.navigationBar.isOpaque = true
         selectedProgrammesTabViewController.navigationBar.isHidden = false
-        selectedProgrammesTabViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        selectedProgrammesTabViewController.tabBarItem = UITabBarItem(title: "Statuses", image: UIImage.init(named: "ic_statuses"), tag: 1)
         
-        return [programmesTabViewController, selectedProgrammesTabViewController]
+        let examsListViewController = ExamsListViewController()
+        let examsListTabViewController = UINavigationController(rootViewController: examsListViewController)
+        examsListTabViewController.navigationBar.isOpaque = true
+        examsListTabViewController.navigationBar.isHidden = false
+        examsListTabViewController.tabBarItem = UITabBarItem(title: "Exams", image: UIImage.init(named: "ic_exams"), tag: 2)
+        
+        return [programmesTabViewController, selectedProgrammesTabViewController, examsListTabViewController]
     }
     
 }
