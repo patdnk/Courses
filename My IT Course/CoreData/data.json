@@ -1,0 +1,917 @@
+[{
+    "id": 1,
+    "name": "iOS Programming",
+    "status": "None",
+    "available": false,
+    "modules": [{
+        "id": 11,
+        "name": "Introducing SWIFT",
+        "desc": "Information about SWIFT and overview of Xcode and how to use the ‘Playground’",
+        "status": "Not started",
+        "units": [{
+            "id": 111,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 112,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 113,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 114,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 115,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 116,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Data Types",
+        "desc": "Primitives, integers, floats and literal",
+        "status": "Not started",
+        "units": [{
+            "id": 121,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 122,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 123,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 124,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 125,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 126,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Basic Syntax",
+        "desc": "Logical operations and enumerations",
+        "status": "Not started",
+        "units": [{
+            "id": 131,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 132,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 133,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 134,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 135,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 136,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Functions and closures",
+        "desc": "Passing parameters and parameter naming",
+        "status": "Not started",
+        "units": [{
+            "id": 141,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 142,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 143,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 144,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 145,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 146,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Classes and structures",
+        "desc": "Defining classes, difference between value and reference types",
+        "status": "Not started",
+        "units": [{
+            "id": 151,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 152,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 153,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 154,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 155,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 156,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Objects operations",
+        "desc": "Defining instance and type methods, subscripts",
+        "status": "Not started",
+        "units": [{
+            "id": 161,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 162,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 163,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 164,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 165,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 166,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    }
+    ]
+},
+{
+    "id": 2,
+    "name": "Microsoft 365",
+    "status": "None",
+    "available": false,
+    "modules": [{
+        "id": 21,
+        "name": "Design",
+        "desc": "Planning an infrastructure and setting authentication solution",
+        "status": "Not started",
+        "units": [{
+            "id": 211,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 212,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 213,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 214,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 215,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 216,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Configuration",
+        "desc": "Planning and configuring office 365 experience",
+        "status": "Not started",
+        "units": [{
+            "id": 221,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 222,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 223,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 224,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 225,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 226,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Management",
+        "desc": "Configuring tenant roles and service management",
+        "status": "Not started",
+        "units": [{
+            "id": 231,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 232,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 233,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 234,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 235,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 236,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Practical Lab",
+        "desc": "Service management practical",
+        "status": "Not started",
+        "units": [{
+            "id": 241,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 242,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 243,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 244,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 245,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 246,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Plan for directory synchronization",
+        "desc": "Planning process and implantation",
+        "status": "Not started",
+        "units": [{
+            "id": 251,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 252,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 253,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 254,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 255,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 256,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Moving your organization to Office 365",
+        "desc": "Planning, design and implementation",
+        "status": "Not started",
+        "units": [{
+            "id": 261,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 262,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 263,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 264,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 265,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 266,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    }
+    ]
+},
+{
+    "id": 3,
+    "name": "CCNA Boot Camp",
+    "status": "None",
+    "available": false,
+    "modules": [{
+        "id": 31,
+        "name": "Building a Simple Network",
+        "desc": "Functions of networking introducing LANs",
+        "status": "Not started",
+        "units": [{
+            "id": 311,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 312,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 313,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 314,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 315,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 316,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Internet Connectivity",
+        "desc": "Understanding TCP and static routing",
+        "status": "Not started",
+        "units": [{
+            "id": 331,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 332,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 333,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 334,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 335,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 336,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Implementing Networks",
+        "desc": "Routing Between VLANS and layer 3 redundancy",
+        "status": "Not started",
+        "units": [{
+            "id": 341,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 342,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 343,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 344,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 345,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 346,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "IPv6",
+        "desc": "Introduction, understanding and configuration",
+        "status": "Not started",
+        "units": [{
+            "id": 351,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 352,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 353,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 354,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 355,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 356,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Troubleshooting",
+        "desc": "IPv4 and IPv6 connectivity",
+        "status": "Not started",
+        "units": [{
+            "id": 361,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 362,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 363,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 364,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 365,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 366,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Implementation",
+        "desc": "Administrative access, device hardening",
+        "status": "Not started",
+        "units": [{
+            "id": 371,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 372,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 373,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 374,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 375,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 376,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    }
+    ]
+},
+{
+    "id": 4,
+    "name": "CompTIA Security",
+    "status": "None",
+    "available": false,
+    "modules": [{
+        "id": 41,
+        "name": "Indicators of Compromise",
+        "desc": "Importance of cyber security, social engineering and phishing",
+        "status": "Not started",
+        "units": [{
+            "id": 411,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 412,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 413,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 414,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 415,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 416,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Critical security controls",
+        "desc": "Security control types, defence and pen test concepts",
+        "status": "Not started",
+        "units": [{
+            "id": 421,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 422,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 423,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 424,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 425,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 426,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Assessment tools",
+        "desc": "Packet capture, incident response and service discovery",
+        "status": "Not started",
+        "units": [{
+            "id": 431,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 432,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 433,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 434,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 435,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 436,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Incident response",
+        "desc": "Preparation, identification, containment",
+        "status": "Not started",
+        "units": [{
+            "id": 441,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 442,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 443,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 444,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 445,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 446,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Cryptography",
+        "desc": "Hashing algorithms, transport encryption and cryptographic attacks",
+        "status": "Not started",
+        "units": [{
+            "id": 451,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 452,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 453,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 454,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 455,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 456,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Public Key infrastructure",
+        "desc": "Digital certificates, storing and distributing keys",
+        "status": "Not started",
+        "units": [{
+            "id": 461,
+            "name": "Unit 1",
+            "status": "Not started"
+        },
+        {
+            "id": 462,
+            "name": "Unit 2",
+            "status": "Not started"
+        },
+        {
+            "id": 463,
+            "name": "Unit 3",
+            "status": "Not started"
+        },
+        {
+            "id": 464,
+            "name": "Unit 4",
+            "status": "Not started"
+        },
+        {
+            "id": 465,
+            "name": "Unit 5",
+            "status": "Not started"
+        },
+        {
+            "id": 465,
+            "name": "Unit 6",
+            "status": "Not started"
+        }
+        ]
+    }
+    ]
+}
+]
