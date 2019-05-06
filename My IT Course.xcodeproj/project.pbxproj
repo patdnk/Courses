@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0818F2CF226BD97600627310 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818F2CE226BD97600627310 /* FlowController.swift */; };
 		0818F2D1226BE46100627310 /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818F2D0226BE46100627310 /* GenericDataSource.swift */; };
-		0818F2D5226C061000627310 /* AccessoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818F2D4226C061000627310 /* AccessoryButton.swift */; };
 		0818F2D7226C091800627310 /* AccessoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0818F2D6226C091800627310 /* AccessoryCell.swift */; };
 		0864F26A227793A8002B79B0 /* ProgrammesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864F269227793A8002B79B0 /* ProgrammesViewController.swift */; };
 		0864F26B22779A81002B79B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AE70A224CBBB60026A630 /* HomeViewController.swift */; };
@@ -44,9 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0818F2CE226BD97600627310 /* FlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
 		0818F2D0226BE46100627310 /* GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
-		0818F2D4226C061000627310 /* AccessoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryButton.swift; sourceTree = "<group>"; };
 		0818F2D6226C091800627310 /* AccessoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryCell.swift; sourceTree = "<group>"; };
 		0864F269227793A8002B79B0 /* ProgrammesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammesViewController.swift; sourceTree = "<group>"; };
 		0864F27122779E96002B79B0 /* AccessoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccessoryCell.xib; sourceTree = "<group>"; };
@@ -177,8 +173,6 @@
 				4A6AE70F224CBBB80026A630 /* Assets.xcassets */,
 				4A6AE711224CBBB80026A630 /* LaunchScreen.storyboard */,
 				4A6AE714224CBBB80026A630 /* Info.plist */,
-				0818F2CE226BD97600627310 /* FlowController.swift */,
-				0818F2D4226C061000627310 /* AccessoryButton.swift */,
 			);
 			path = "My IT Course";
 			sourceTree = "<group>";
@@ -265,11 +259,9 @@
 			files = (
 				0864F33A228082DC002B79B0 /* Exam.swift in Sources */,
 				0864F2DE2278A1B7002B79B0 /* DetailsCell.swift in Sources */,
-				0818F2D5226C061000627310 /* AccessoryButton.swift in Sources */,
 				0864F334227F0C6D002B79B0 /* DatabaseManager.swift in Sources */,
 				0864F332227F0C6D002B79B0 /* Courses.xcdatamodeld in Sources */,
 				0864F2762277A21B002B79B0 /* GenericTableViewController.swift in Sources */,
-				0818F2CF226BD97600627310 /* FlowController.swift in Sources */,
 				0864F331227F0C6D002B79B0 /* Programme.swift in Sources */,
 				4A6AE709224CBBB60026A630 /* AppDelegate.swift in Sources */,
 				0864F2E22278A6F2002B79B0 /* ModulesStatusViewController.swift in Sources */,
