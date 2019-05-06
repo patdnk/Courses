@@ -10,15 +10,15 @@ import UIKit
 
 class ModuleDetailsViewController: UIViewController {
     
-    var module: ModuleItem!
+    var module: Module!
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.titleLabel.text = "\(module.name) description"
-        self.descriptionTextView.text = module.description
+        self.titleLabel.text = "\(module.name!) description"
+        self.descriptionTextView.text = module.desc
     }
 
 }

@@ -13,12 +13,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        //Database load initial json if no data stored so far
+        DatabaseManager.shared.checkInitialData()
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         let homeViewController = HomeViewController()
         window!.rootViewController = homeViewController
         window!.makeKeyAndVisible()
+        
         return true
     }
 

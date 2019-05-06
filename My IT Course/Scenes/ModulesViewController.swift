@@ -10,17 +10,18 @@ import UIKit
 
 class ModulesViewController: GenericTableViewController {
     
-    var programme: ProgrammeItem!
+    var modules: [Module] = []
+    var programmeName: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupDataSource()
         self.setupTable()
-        self.sectionTitles = ["Modules in \(programme.name)"]
+        self.sectionTitles = ["Modules in \(programmeName)"]
     }
     
     private func setupDataSource() {
-        self.dataSource = GenericDataSource(items: programme.modules,
+        self.dataSource = GenericDataSource(items: [modules],
                                             reuseIdentifier: GenericTableViewController.accessoryCell) { (module, @objc  cell) in
                                                 cell.textLabel?.text = module.name
         }
@@ -30,7 +31,7 @@ class ModulesViewController: GenericTableViewController {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let moduleDetailsViewController = ModuleDetailsViewController()
-        moduleDetailsViewController.module = (self.dataSource as! GenericDataSource<ModuleItem>).items[indexPath.row]
+        moduleDetailsViewController.module = self.modules[indexPath.row]
         self.navigationController?.pushViewController(moduleDetailsViewController, animated: true)
     }
 

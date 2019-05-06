@@ -12,22 +12,26 @@ class GenericDataSource<T>: NSObject, UITableViewDataSource {
     
     typealias CellConfigurator = (T, UITableViewCell) -> Void
     
-    var items: [T]
+    var items: [[T]]
     let reuseIdentifier: String
     private let cellConfigurator: CellConfigurator
 
-    init(items: [T], reuseIdentifier: String, cellConfigurator: @escaping CellConfigurator) {
+    init(items: [[T]], reuseIdentifier: String, cellConfigurator: @escaping CellConfigurator) {
         self.items = items
         self.reuseIdentifier = reuseIdentifier
         self.cellConfigurator = cellConfigurator
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return self.items.count
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.items[section].count
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let item = items[indexPath.row]
+        let item = items[indexPath.section][indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
         
         cellConfigurator(item, cell)

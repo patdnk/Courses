@@ -10,11 +10,12 @@ import UIKit
 
 class ModulesStatusViewController: GenericTableViewController {
 
-    var data: ([ProgrammeItem], ProgrammeItem)!
+    var modules: [Module] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.sectionTitles = ["Module progress"]
+        self.updateModuleStatus()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -26,17 +27,10 @@ class ModulesStatusViewController: GenericTableViewController {
     }
     
     private func setupDataSource() {
-        self.dataSource = GenericDataSource(items: data.1.modules,
+        self.dataSource = GenericDataSource(items: [modules],
                                             reuseIdentifier: GenericTableViewController.detailsCell) { (module, @objc  cell) in
                                                 cell.textLabel?.text = module.name
-                                                
-                                                if module.units.allSatisfy({ $0.status == .completed }) {
-                                                    cell.detailTextLabel?.text = ModuleStatus.completed.rawValue
-                                                } else if module.units.allSatisfy({ $0.status == .notStarted }) {
-                                                    cell.detailTextLabel?.text = ModuleStatus.notstarted.rawValue
-                                                } else {
-                                                    cell.detailTextLabel?.text = ModuleStatus.ongoing.rawValue
-                                                }
+                                                cell.detailTextLabel?.text = module.status
         }
     }
     
@@ -44,8 +38,30 @@ class ModulesStatusViewController: GenericTableViewController {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let unitsStatusViewController = UnitsStatusViewController()
-        unitsStatusViewController.data = (data.0, data.1, (self.dataSource as! GenericDataSource<ModuleItem>).items[indexPath.row])
+        unitsStatusViewController.units = Array(self.modules[indexPath.row].units!).sorted(by: { $0.name! < $1.name! })
+        unitsStatusViewController.moduleName = self.modules[indexPath.row].name!
+//        unitsStatusViewController.data = (data.0, data.1, (self.dataSource as! GenericDataSource<Module>).items[indexPath.row])
         self.navigationController?.pushViewController(unitsStatusViewController, animated: true)
+    }
+    
+    func updateModuleStatus() {
+        for module in self.modules {
+            for unit in module.units! {
+                if unit.status == "Currently studying" {
+                    module.setValue("On going", forKey: "status")
+                }
+                
+                if module.units!.allSatisfy( { $0.status == "Not started" } ) {
+                    module.setValue("Not started", forKey: "status")
+                }
+                
+                if module.units!.allSatisfy( { $0.status == "Completed" } ) {
+                    module.setValue("Completed", forKey: "status")
+                }
+                
+                DatabaseManager.shared.saveContext()
+            }
+        }
     }
 
 }

@@ -46,9 +46,12 @@ class AccessoryCell: UITableViewCell {
     }
     
     @IBAction func didTapActionButton() {
-        self.accessoryType =  self.isTicked ? .none : .checkmark
-        self.isTicked = !self.isTicked
         self.delegate?.didTapActionButton(selected: self.isTicked, sender: self.actionButton)
+    }
+    
+    public func toggleAccessory() {
+        self.isTicked = !self.isTicked
+        self.accessoryType =  self.isTicked ? .checkmark : .none
     }
     
 }

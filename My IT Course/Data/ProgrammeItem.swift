@@ -12,9 +12,16 @@ public enum ProgrammeStatus: String, Codable {
     case none = "None"
     case certified = "Certified"
     case inProgress = "In progress"
-}
-
-extension ProgrammeStatus {
+    
+    static func get(from: String) -> ProgrammeStatus {
+        if from == certified.rawValue {
+            return .certified
+        } else if from == inProgress.rawValue {
+            return .inProgress
+        }
+        return .none
+    }
+    
     enum CodingError: Error { case decoding(String) }
     enum CodableKeys: String, CodingKey { case certified, inProgress }
 }
